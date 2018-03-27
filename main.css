@@ -1,0 +1,138 @@
+/*--Basic --*/
+body {
+    background-color:black;
+    margin:0;
+}
+
+/*-- Wrapper --*/
+.wrapper {
+    width:100vw;
+    height:100%;
+    background-color:white;
+}
+header {
+    width:100vw;
+    height:20vh;
+}
+.headerimg {
+    max-height: 40vh;
+    width:100%;
+}
+nav {
+    width:100%;
+    height:5vh;
+    text-align: center;
+    padding-top: 20vh;
+}
+li{
+    display:inline;
+    padding:1rem;
+    text-align:center;
+    /*-- border:1px solid black; --*/
+    border-radius:10px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-family:Cinzel;
+    font-weight:700;
+    font-size: 1.5rem;
+}
+.article{
+    width:60vw;
+    margin-left:20vw;
+    margin-top:4rem;
+    background-color:lightgrey;
+    text-align:left;
+    border:1px solid black;
+    border-radius:10px;
+}
+h1, p {
+    margin-left:1.5rem;
+    margin-right:1.5rem;
+    font-family:Raleway;
+}
+p{
+    line-height:1.5;
+    font-size:1.25rem;
+}
+
+/*-- Hover --*/
+.buttons:hover{
+    background-color: black;
+    color:white;
+    transition: 0.3s ease-in;
+}
+ a:hover{
+    color:white;
+} 
+
+/*-- Social --*/
+.social {
+    width:15rem;
+    background-color:lightgrey;
+    border:1px solid black;
+    border-radius: 10px;
+    float:righ;
+    height:7rem;
+    position:relative;
+    bottom:22rem;
+    margin-left: 1rem;
+}
+.social p {
+    text-align: center;
+    text-decoration: underline;
+    font-weight:700;
+}
+
+.facebook {
+    color:black;
+    padding:1rem;
+
+}
+
+.facebook:hover{
+    color:blue;
+    
+}
+.instagram {
+    color:black;
+    
+}
+.instagram:hover{
+    color:blue;
+}
+
+@media (max-width:560px){
+    .social {
+        float:none;
+        position:static;
+        width:60vw;
+        margin-left:20vw;
+        margin-top: 2rem;
+    }
+    nav ul {
+        position:relative;
+        bottom:12vh;
+        background-color:lightgrey;
+        border: 2px solid black;
+    }
+    .buttons{
+        line-height:3rem;
+    
+    }
+}
+/*-- Footer --*/
+
+footer{
+    width:100%;
+    height:5vh;
+    background-color: black;
+    text-align: center;
+}
+footer p{
+    color:white;
+    font-size: 0.5rem;
+    font-style: italic;
+    padding-top:2vh;
+}
