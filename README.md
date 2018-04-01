@@ -1,0 +1,2 @@
+# Chuushin-Dojo
+Aikidos weblap
